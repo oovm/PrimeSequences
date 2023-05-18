@@ -1,10 +1,11 @@
 [workspace]
 members = ["projects/*"]
 default-members = [
-    "projects/sub_projects",
+    "projects/primes-web",
 ]
 exclude = [
     "projects/.DS_Store",
+    "projects/primes-linear",
 ]
 
 [profile.release]
